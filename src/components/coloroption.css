@@ -1,0 +1,21 @@
+.coloroption{
+    position: relative;
+   
+}
+.coloroption >div{
+    position: fixed;
+    border-radius: 10px;
+    bottom: 30%;
+    z-index: 9999999;
+    right: -100px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.coloroption >div:hover{
+    right: 10px;
+}
+.boxxxx{
+    border: 1px solid rgb(12, 36, 114);
+    padding: 10px;
+    background-color: antiquewhite;
+}
